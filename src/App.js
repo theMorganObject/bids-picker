@@ -52,6 +52,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Auction Day!</p>
+        <p>Choose three bids</p>
+        <p>You my sort them using this button</p>
+        <button className="btn-sort" onClick={clickHandler}>
+          Pick highest 3
+        </button>
         <div className="container">
           {bids.map(bid => {
             return (
@@ -67,7 +72,6 @@ function App() {
             );
           })}
         </div>
-        <button onClick={clickHandler}>Pick highest 3</button>
       </header>
     </div>
   );

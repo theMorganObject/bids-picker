@@ -30,8 +30,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-sort {
+  display: inline;
 }
 
 @keyframes App-logo-spin {
