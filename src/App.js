@@ -36,6 +36,7 @@ function App() {
       const bid = {
         id: `bid-${i}`,
         img: images[i],
+        alt: 'Image of customer who has placed a bid',
         amount: Math.floor(Math.random() * 25) + 1,
         message: messages[i],
       };
@@ -83,6 +84,7 @@ function App() {
                 }
                 key={bid.message}
                 img={bid.img}
+                alt={bid.alt}
                 amount={bid.amount}
                 message={bid.message}
               ></Card>

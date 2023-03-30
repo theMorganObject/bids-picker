@@ -9,7 +9,7 @@ const Card = props => {
           props.isSelected ? classes.selected : ''
         }`}
       >
-        <img src={props.img} className={classes.img} />
+        <img src={props.img} alt={props.alt} className={classes.img} />
         <h4>${props.amount}</h4>
         <p className="message">{props.message}</p>
         {/* <button className="last-item">Accept!</button> */}
